@@ -44,7 +44,7 @@ public class Base {
 		
 		//script for chrome browser and step
 		//max screen
-		System.setProperty("webdtriver.chrome.driver","C:\\Users\\sudha\\OneDrive\\Desktop\\TestNg\\new\\chromedriver.exe");
+		System.setProperty("webdtriver.chrome.driver","C:\\Users\\chari\\OneDrive\\Desktop\\TestNg\\new\\chromedriver.exe");
 		driver =new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
